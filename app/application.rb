@@ -9,7 +9,7 @@ class Application
     else
       resp.write "Good Morning!"
     end
-
+      resp.write time.inspect
     resp.finish
   end
 
